@@ -2,12 +2,12 @@
 Ce programme affiche une carte montrant les différentes zones où la technologie RTC sera arrêtée en France, par date d'arrêt et par zone géographique. Cette carte est basée sur les données publiques disponibles sur les sites d'[Orange](https://reseaux.orange.fr/projets/modernisation-telephonie-fixe) et de la [FFT](https://www.fftelecoms.org/nos-travaux-et-champs-dactions/reseaux/arret-fin-rtc-premieres-zones-devoilees-plaques-10-2018/).
 
 ## Exemple
-Un exemple complet est disponible sur ma page personnelle GitHub (https://baptistehugot.github.io/arretRTC/).
+Un exemple complet est disponible sur [ma page personnelle GitHub](https://baptistehugot.github.io/arretRTC/index.html).
 
 ## Ecrit avec
-* [Javascript] - Le langage de programmation utilisé pour gérer la gestion de la carte et des bibliothèques
-* [HTML] - Le langage de programmation utilisé pour afficher la page Internet
-* [CSS] - Le langage de programmation utilisé pour gérer les styles de la page Internet
+* [Javascript](https://www.ecma-international.org/publications/standards/Ecma-262.htm) - Le langage de programmation utilisé pour gérer la gestion de la carte et des bibliothèques
+* [HTML](https://www.w3.org/html/) - Le langage de programmation utilisé pour afficher la page Internet
+* [CSS](https://www.w3.org/Style/CSS/) - Le langage de programmation utilisé pour gérer les styles de la page Internet
 
 ## Bibliothèques utilisées
 * [Leaflet](https://leafletjs.com/) - La bibliothèque utilisée pour afficher la carte
