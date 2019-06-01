@@ -14,6 +14,7 @@ Un exemple complet est disponible sur [ma page personnelle GitHub](https://bapti
 * [Leaflet-Ajax](https://github.com/calvinmetcalf/leaflet-ajax) - La bibliothèque utilisée pour gérer l'affichage des zones contenues dans le fichier GeoJson
 * [Leaflet-Geosearch](https://github.com/smeijer/leaflet-geosearch) - La bibliothèque utilisée pour permettre la recherche par commune
 * [Leaflet-Locatecontrol](https://github.com/domoritz/leaflet-locatecontrol) - La bibliothèque utilisée pour permettre la géolocalisation de l'utilisateur
+* [Leaflet.fullscreen](https://github.com/Leaflet/Leaflet.fullscreen) - La bibliothèque utilisée pour afficher la carte en plein écran
 
 ## Versions
 [SemVer](http://semver.org/) est utilisé pour la gestion de versions. Pour connaître les versions disponibles, veuillez vous référer aux [étiquettes disponibles dans ce dépôt](https://github.com/BaptisteHugot/arretRTC/releases/).
