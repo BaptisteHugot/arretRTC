@@ -17,7 +17,7 @@ Les fusio-demandes sont le meilleur moyen de proposer des modifications du code 
 5. Assurez-vous que votre code est propre et bien documenté
 6. Emettez cette fusio-demande !
 
-## Toutes les contributions que vous ferez seront sous [licence logiciel MIT](LICENSE.md)
+## Toutes les contributions que vous ferez seront sous [licence logiciel MIT](LICENSE)
 En bref, lorsque vous soumettez des modifications de code, vos soumissions sont considérées comme relevant de la même licence logiciel qui couvre le projet. N'hésitez pas à contacter les responsables du projet si cela vous inquiète.
  
 ## Signalez les bogues en utilisant le [suivi des bogues de GitHub](https://github.com/BaptisteHugot/arretRTC/issues)
