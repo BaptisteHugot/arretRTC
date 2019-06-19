@@ -2,7 +2,7 @@
 Ce programme affiche une carte montrant les différentes zones où la technologie RTC sera arrêtée en France, par date d'arrêt et par zone géographique. Cette carte est basée sur les données publiques disponibles sur les sites d'[Orange](https://reseaux.orange.fr/projets/modernisation-telephonie-fixe) et de la [FFT](https://www.fftelecoms.org/nos-travaux-et-champs-dactions/reseaux/arret-fin-rtc-premieres-zones-devoilees-plaques-10-2018/).
 
 ## Exemple
-Un exemple complet est disponible sur [ma page personnelle GitHub](https://baptistehugot.github.io/arretRTC/index.html).
+Un exemple complet est disponible sur [ma page personnelle GitHub](https://baptistehugot.github.io/arretRTC/).
 
 ## Ecrit avec
 * [Javascript](https://www.ecma-international.org/publications/standards/Ecma-262.htm) - Le langage de programmation utilisé pour gérer la gestion de la carte et des bibliothèques
@@ -24,3 +24,9 @@ Un exemple complet est disponible sur [ma page personnelle GitHub](https://bapti
 
 ## Licence
 Ce projet est disponible sous licence MIT. Veuillez lire le fichier [LICENSE.md](LICENSE.md) pour plus de détails.
+
+## Règles de conduite
+Pour connaître l'ensemble des règles de conduite à respecter sur ce dépôt, veuillez lire le fichier [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md).
+
+## Contribution au projet
+Si vous souhaitez contribuer au projet, que ce soit en corrigeant des bogues ou en proposant de nouvelles fonctionnalités, veuillez lire le fichier [CONTRIBUTING.md](CONTRIBUTING.md) pour plus de détails.
