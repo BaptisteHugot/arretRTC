@@ -15,6 +15,8 @@ Un exemple complet est disponible sur [ma page personnelle GitHub](https://bapti
 * [Leaflet-Geosearch](https://github.com/smeijer/leaflet-geosearch) - La bibliothèque utilisée pour permettre la recherche par commune
 * [Leaflet-Locatecontrol](https://github.com/domoritz/leaflet-locatecontrol) - La bibliothèque utilisée pour permettre la géolocalisation de l'utilisateur
 * [Leaflet.fullscreen](https://github.com/Leaflet/Leaflet.fullscreen) - La bibliothèque utilisée pour afficher la carte en plein écran
+* [Leaflet-Hash](https://github.com/mlevans/leaflet-hash) - La bibliothèque utilisée pour avoir une URL dynamique au lieu d'une URL statique par défaut
+* [Leaflet-easyPrint](https://github.com/rowanwins/leaflet-easyPrint/) - La bibliothèque utilisée pour exporter la carte au format .png et pour l'imprimer
 
 ## Versions
 [SemVer](http://semver.org/) est utilisé pour la gestion de versions. Pour connaître les versions disponibles, veuillez vous référer aux [étiquettes disponibles dans ce dépôt](https://github.com/BaptisteHugot/arretRTC/releases/).

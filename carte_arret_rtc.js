@@ -16,8 +16,9 @@ var info;
  * @param L'année concernée
  */
 function getColor(year) {
-    return year == 2021 ? '#0B3D91' :
-        year == 2023 ? '#FF4500' :
+    return year == 2021 ? '#1B9E77' :
+        year == 2023 ? '#D95F02' :
+        year == 2024 ? '#7570B3' :
         '#D8B2D8';
 }
 
@@ -104,6 +105,9 @@ function initMap() {
         maxZoom: 20
     });
 
+    // On créé une URL dynamique au lieu de l'URL statique par défaut
+    var hash = new L.Hash(map);
+
     // On lit les données contenues dans le fichier geojson
     geojsonLayer = new L.GeoJSON.AJAX("./Donnees/carte_arret_rtc.json", {
         style: style,
@@ -159,7 +163,7 @@ function initMap() {
     legend.onAdd = function(map) {
         var div = L.DomUtil.create('div', 'info legend'),
             grades = [],
-            labels = [2021, 2023];
+            labels = [2021, 2023, 2024];
 
         // On boucle sur toutes les valeurs et on génère une étiquette avec la bonne couleur pour chaque valeur
         for (var i = 0; i < labels.length; i++) {
@@ -189,6 +193,25 @@ function initMap() {
             '<b>' + props.data_arret_rtc_DEP + '</b><br />' + props.data_arret_rtc_DATE : '<br /><br />');
     };
 
+// On définit l'export de la carte au format .png    
+    var exporter = L.easyPrint({
+      		sizeModes: ['Current'],
+      		title: 'Exporter',
+      		filename: 'CarteRTC',
+      		exportOnly: true,
+      		hideControlContainer: false,
+      		hideClasses: ['leaflet-control-zoom','leaflet-control-fullscreen','leaflet-control-easyPrint','leaflet-control-easyPrint-button','leaflet-control-locate','leaflet-control-geosearch','info']
+		});
+
+// On définit l'impression de la carte
+var printer = L.easyPrint({
+      		sizeModes: ['Current'],
+      		title: 'Imprimer',
+      		filename: 'CarteRTC',
+      		exportOnly: false,
+      		hideControlContainer: false,
+      		hideClasses: ['leaflet-control-zoom','leaflet-control-fullscreen','leaflet-control-easyPrint','leaflet-control-easyPrint-button','leaflet-control-locate','leaflet-control-geosearch','info']
+		});
 
     // On ajoute toutes les couches à la carte
     osmLayer.addTo(map);
@@ -197,6 +220,13 @@ function initMap() {
     map.addControl(searchControl);
     location.addTo(map);
     info.addTo(map);
+    exporter.addTo(map);
+    printer.addTo(map);
+
+	/*	function manualPrint () {
+			printer.printMap('CurrentSize', 'MyManualPrint')
+		}*/
+
 }
 
 /**
