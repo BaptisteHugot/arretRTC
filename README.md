@@ -1,3 +1,5 @@
+> :warning: **Suite à la fusion annoncée du programme de fermeture du RTC avec celui de fermeture du cuivre, ces données ne sont plus valides. Ce projet est désormais archivé et laissé accessible uniquement pour la partie historique :wink:**
+
 # arretRTC
 Ce programme affiche une carte montrant les différentes zones où la technologie RTC sera arrêtée en France, par date d'arrêt et par zone géographique. Cette carte est basée sur les données publiques disponibles sur les sites d'[Orange](https://reseaux.orange.fr/projets/modernisation-telephonie-fixe) et de la [FFT](https://www.fftelecoms.org/nos-travaux-et-champs-dactions/reseaux/arret-du-rtc-8-plaques-devoilees-octobre-2019/).
 
